@@ -13,7 +13,7 @@ export default function Header() {
                     <h1 className="font-bold text-2xl hidden md:block text-black">TSender</h1>
                 
                 <a
-                    href="https://github.com/cyfrin/TSender"
+                    href="https://github.com/AbhaySingh6921/Token_Sender-DApp"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="p-1 rounded-lg bg-zinc-900 hover:bg-zinc-800 transition-colors border-2 border-zinc-600 hover:border-zinc-500 cursor-alias hidden md:block"
