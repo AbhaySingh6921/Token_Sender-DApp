@@ -1,15 +1,14 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
-  output:'export',
-  distDir:'out',
-  images:{
-    unoptimized:true,
+  output: 'export',         // Required for static export
+  trailingSlash: true,      // Required for IPFS
+  assetPrefix: './',        // IPFS-safe paths
+  images: {
+    unoptimized: true,      // Required for static export
   },
-  basePath:'',
-  assetPrefix:'./',
-  trailingSlash :true,
+  distDir: 'out',           // Optional: default is `.next`, but export goes to `out/`
 };
 
 export default nextConfig;
+// export const config = {
