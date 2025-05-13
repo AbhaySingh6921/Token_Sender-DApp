@@ -18,7 +18,7 @@ This project showcases how to build a full-stack dApp with wallet integration, c
 💰 Display connected wallet address and balance
 
 📦 Installation
-git clone https://github.com/your-username/t_sender.git
+git clone https://github.com/AbhaySingh6921/Token_Sender-DApp.git
 cd t_sender
 npm install
 npm run dev
