@@ -1,41 +1,58 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+🚀 Token-Sender
+Token-Sender is a decentralized application (dApp) that allows users to send ERC-20 tokens securely on the Ethereum network via a simple and intuitive frontend interface. Built with Next.js, Tailwind CSS, RainbowKit, and WAGMI, the app connects seamlessly to Web3 wallets and enables token transfers directly on-chain.
 
-## Getting Started
+This project showcases how to build a full-stack dApp with wallet integration, contract interaction, and gas-efficient transactions, ideal for learning or demonstrating Ethereum token transfers using modern Web3 tools.
 
-First, run the development server:
+🔗 Live Demo
+[https://tokensender.netlify.app/]
 
-```bash
+🛠️ Tech Stack
+-Frontend: Next.js, React, Tailwind CSS
+-Web3 Integration: RainbowKit, WAGMI, ethers.js
+-Blockchain: Ethereum Sepolia Testnet
+-Smart Contract: ERC-20 Token (standard implementation)
+
+✨ Features
+🔐 Connect and authenticate with a Web3 wallet (e.g., MetaMask)
+🔁 Send ERC-20 tokens to any Ethereum address
+💰 Display connected wallet address and balance
+
+📦 Installation
+git clone https://github.com/your-username/t_sender.git
+cd t_sender
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+⚙️ Usage
+-Connect your wallet using RainbowKit.
+-Enter the recipient's address and the amount of tokens to send.
+-Confirm the transaction in your wallet.
+-Done! The transaction will be submitted and confirmed on-chain.
 
 
+🧪 Testing & Deployment
+-You can deploy this dApp to any Ethereum testnet or mainnet.
+-Use Netlify for frontend hosting.
+
+📜 License
+MIT License
+
+🙋‍♂️ Author
+Made with 💻 by [Abhay Singh]
+
+
+
+
+
+
+
+
+
+
+
+
+#### Ignore######
+#make pnmp at ^18.0.0
 nvm install 18
 nvm use 18
 nvm alias default 18
